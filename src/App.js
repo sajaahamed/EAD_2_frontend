@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Login_page from './Pages/Login_page';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
