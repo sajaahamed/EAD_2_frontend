@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+
 
 import './Navigationbar.css'
 
@@ -14,7 +14,15 @@ export default function Navigationbar() {
     <div>
        <Navbar expand="lg" className="bg-custom">
       <Container fluid>
-        <Navbar.Brand href="#">MMM STORES</Navbar.Brand>
+      <Navbar.Brand href="#">
+          <img
+            src="https://i.pinimg.com/originals/85/c8/3d/85c83d242b73d3c52b8c4c2e7df27db7.jpg"
+            height="80px"
+            width="80px"
+            className="d-inline-block align-top"
+            alt="MMM vvv logo"
+          />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -26,8 +34,8 @@ export default function Navigationbar() {
             <Nav.Link href="Login_page.js">Sign in account</Nav.Link>
             <Nav.Link href="Login_page.js">Cart</Nav.Link>
             
-            
-          </Nav>
+            </Nav>
+         
           <Form className="d-flex">
             <Form.Control
               type="search"
@@ -35,7 +43,7 @@ export default function Navigationbar() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="search" variant="outline-success">Search </Button>
           </Form>
         </Navbar.Collapse>
       </Container>
