@@ -1,0 +1,27 @@
+.bg-custom {
+    background-color: #0320fc; /* Custom background color */
+}
+
+.bg-custom .navbar-brand,
+.bg-custom .nav-link,
+.bg-custom .form-control,
+.bg-custom .btn {
+    color: #ecf0f1; /* Custom text color for Navbar elements */
+}
+
+.bg-custom .nav-link:hover,
+.bg-custom .navbar-brand:hover,
+.bg-custom .btn:hover {
+    color:#f39c12; /* Custom hover color for Navbar elements */
+}
+
+/* Custom color for the search button outline */
+.bg-custom .btn-outline-success {
+    color: #ecf0f1;
+    border-color: #ecf0f1;
+}
+
+.bg-custom .btn-outline-success:hover {
+    background-color: #f39c12;
+    border-color: #f39c12;
+}

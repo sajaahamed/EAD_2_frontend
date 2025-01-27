@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import Login_page from './Pages/Login_page';
 
+
 function App() {
     const [message, setMessage] = useState('');
 
@@ -17,8 +18,10 @@ function App() {
 
     return (
         <div >
+           
             <Login_page/>
-            
+
+
         </div>
     );
 }

@@ -1,0 +1,13 @@
+.bg-custom2 {
+    background-color: #0320fc; /* Custom background color */
+}
+
+.bg-custom2 .navbar-brand,
+.bg-custom2 .nav-link {
+    color: #ecf0f1; /* Custom text color */
+}
+
+.bg-custom2 .nav-link:hover,
+.bg-custom2 .navbar-brand:hover {
+    color: #f39c12; /* Custom hover color */
+}
