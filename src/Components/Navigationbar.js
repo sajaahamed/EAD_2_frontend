@@ -12,7 +12,7 @@ import './Navigationbar.css'
 export default function Navigationbar() {
   return (
     <div>
-       <Navbar expand="lg" className="bg-body-tertiary">
+       <Navbar expand="lg" className="bg-custom">
       <Container fluid>
         <Navbar.Brand href="#">MMM STORES</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

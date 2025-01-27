@@ -8,7 +8,7 @@ export default function Login_page() {
     <div>
       <Navigationbar/>
       <Item_list/>
-      Sign in
+      
     </div>
   )
 }
