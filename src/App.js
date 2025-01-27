@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Login_page from './Pages/Login_page';
 
 function App() {
     const [message, setMessage] = useState('');
@@ -15,9 +16,8 @@ function App() {
     }, []);
 
     return (
-        <div style={{ textAlign: 'center', marginTop: '20px' }}>
-            <h1>Front End and Spring Boot Back End Integration</h1>
-            <p>Message from the backend: {message}</p>
+        <div >
+            <Login_page/>
         </div>
     );
 }
