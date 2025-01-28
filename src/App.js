@@ -1,7 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Login_page from './Pages/Login_page';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Navigationbar from '../src/Components/Navigationbar'
+import Item_list from '../src/Components/Item_list'
+
+
+
+import './App.css'
+import Carsoul from '../src/Components/Carsoul';
+
 
 
 function App() {
@@ -19,13 +28,15 @@ function App() {
 
     return (
         <div >
-           
-            <Login_page/>
-
-
-        </div>
+        <Navigationbar/>
+        <Item_list/> 
+        
+        <Carsoul/>
+         </div>
     );
 }
 
 export default App;
+
+
 

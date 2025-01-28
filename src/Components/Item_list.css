@@ -1,13 +1,26 @@
+/* CSS styles for the Navbar */
 .bg-custom2 {
-    background-color: #0320fc; /* Custom background color */
-}
-
-.bg-custom2 .navbar-brand,
-.bg-custom2 .nav-link {
-    color: #ecf0f1; /* Custom text color */
-}
-
-.bg-custom2 .nav-link:hover,
-.bg-custom2 .navbar-brand:hover {
-    color: #f39c12; /* Custom hover color */
-}
+    background-color: #343a40; 
+  }
+  
+  .navbar .nav-link {
+    color: #ffffff; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+  }
+  
+  .navbar .nav-link:hover {
+    color: #f39c12; 
+    background-color: #495057; 
+    border-radius: 5px; 
+  }
+  
+  .navbar .navbar-toggler {
+    border: none; 
+  }
+  
+  .container {
+    max-width: 1200px; 
+    padding: 0 15px; 
+  }
+  
