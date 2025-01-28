@@ -1,29 +1,25 @@
 .bg-custom {
-    background-color: #0e101c; /* Custom background color */
+    background-color: #0e101c; 
 }
 
 .bg-custom .navbar-brand,
-.bg-custom .nav-link,
-.bg-custom .form-control,
-.bg-custom .btn {
-    color: #ecf0f1; /* Custom text color for Navbar elements */
+.bg-custom .nav-link {
+    color: #ecf0f1; 
+    transition: color 0.3s ease; 
 }
 
-.bg-custom .nav-link:hover,
 .bg-custom .navbar-brand:hover,
-.bg-custom .btn:hover {
-    color:#f39c12; /* Custom hover color for Navbar elements */
+.bg-custom .nav-link:hover {
+    color: #f39c12; 
 }
 
-.search-button {
-    background-color:#60f211; /* Custom background color */
-    color: #ecf0f1; /* Custom text color */
-    border-color:#60f211; /* Custom border color */
-    border-width: 20px;
+.bg-custom .navbar-brand:active,
+.bg-custom .nav-link:active {
+    color: #ecf0f1; 
 }
 
 .search-button:hover {
-    background-color: #46a832; /* Custom hover background color */
-    color: #ffffff; /* Text color on hover */
-    border-color: #16a085; /* Border color on hover */
+    background-color: #46a832;
+    color: #ffffff; 
+    border-color: #16a085; 
 }
