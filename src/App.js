@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import Login_page from './Pages/Login_page'; 
+
 import axios from 'axios';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,18 +29,12 @@ function App() {
     }, []);
 
     return (
+        <div>
+           
+            <Login_page/>
 
-        <div >        
-            <Login_page />
+
         </div>
-
-        <div >
-        <Navigationbar/>
-        <Item_list/> 
-        
-        <Carsoul/>
-         </div>
-
     );
 }
 
