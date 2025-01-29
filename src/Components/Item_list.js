@@ -11,6 +11,18 @@ function MyNavbar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+
+            <Nav.Link href="#fe">Electronics</Nav.Link>
+            <Nav.Link href="#pricing">Motors</Nav.Link>
+            <Nav.Link href="#features">Sports</Nav.Link>
+            <Nav.Link href="#pricing">Toys</Nav.Link>
+            <Nav.Link href="#features">Clothes</Nav.Link>
+            <Nav.Link href="#pricing">Health & beauty</Nav.Link>
+            <Nav.Link href="Home_page.js">Home & garden</Nav.Link>
+            <Nav.Link href="#pricing">Grocery</Nav.Link>
+            <Nav.Link href="#features">Industrial & equipment</Nav.Link>
+            <Nav.Link href="#pricing">Mobile phones</Nav.Link>
+
             <Nav.Link href="#electronics">Electronics</Nav.Link>
             <Nav.Link href="#motors">Motors</Nav.Link>
             <Nav.Link href="#sports">Sports</Nav.Link>
@@ -21,6 +33,7 @@ function MyNavbar() {
             <Nav.Link href="#grocery">Grocery</Nav.Link>
             <Nav.Link href="#industrial-equipment">Industrial & Equipment</Nav.Link>
             <Nav.Link href="#mobile-phones">Mobile Phones</Nav.Link>
+
           </Nav>
         </Navbar.Collapse>
       </Container>
