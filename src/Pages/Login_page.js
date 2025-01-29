@@ -1,6 +1,14 @@
+
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import "./Login_page.css"; // For styling
+
+import React from 'react'
+
+import './Login_page.css'
+
+
+
 
 export default function Login_page() {
   const [username, setUsername] = useState("");
@@ -17,6 +25,7 @@ export default function Login_page() {
   };
 
   return (
+
     <div className="login-container">
       <h1>Login</h1>
       <label htmlFor="username">Username</label>
@@ -27,6 +36,13 @@ export default function Login_page() {
         onChange={(e) => setUsername(e.target.value)}
         placeholder="Enter Username"
       />
+
+    <div>
+     
+     </div>
+  )
+}
+
 
       <label htmlFor="password">Password</label>
       <input
