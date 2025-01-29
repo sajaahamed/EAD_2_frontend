@@ -18,11 +18,8 @@ function App() {
     }, []);
 
     return (
-        <div >
-           
-            <Login_page/>
-
-
+        <div >        
+            <Login_page />
         </div>
     );
 }

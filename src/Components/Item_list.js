@@ -20,7 +20,7 @@ export default function Item_list() {
             <Nav.Link href="#pricing">Toys</Nav.Link>
             <Nav.Link href="#features">Clothes</Nav.Link>
             <Nav.Link href="#pricing">Health & beauty</Nav.Link>
-            <Nav.Link href="#features">Home & garden</Nav.Link>
+            <Nav.Link href="Home_page.js">Home & garden</Nav.Link>
             <Nav.Link href="#pricing">Grocery</Nav.Link>
             <Nav.Link href="#features">Industrial & equipment</Nav.Link>
             <Nav.Link href="#pricing">Mobile phones</Nav.Link>
